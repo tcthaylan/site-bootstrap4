@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Curso de Bootstrap 4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    
+     <!-- CSS -->
+    <link rel="stylesheet" href="style/css/style.css">    
+
+    <!-- Font Awesome CDN--> 
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-dark bg-gradient-primary navbar-expand-lg">
+        
+        <div class="container">
+               
+            <a href="#" class="navbar-brand h1 mb-0">Curso</a>
+
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#barra-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="barra-navegacao">
+
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contatos</a>
+                    </li>
+
+                </ul>
+                
+                <ul class="navbar-nav ml-auto">
+                    
+                    <li class="nav-item dropdown">
+                        
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop">
+                            Social
+                        </a>
+                        
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Facebook</a>
+                            <a href="#" class="dropdown-item">Twitter</a>
+                            <a href="#" class="dropdown-item">Google+</a>
+                        </div>
+                        
+                    </li>
+                    
+                </ul>
+                
+                <form class="form-inline ">
+                    <input type="search" class="form-control ml-4 mr-2" placeholder="Buscar...">
+                    <button type="submit" class="btn btn-dark">Ok</button>
+                </form>
+
+            </div>
+            
+        </div>
+        
+    </nav>
+    
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+        
+        <!-- Indicadores -->
+        <ol class="carousel-indicators">
+           
+            <li data-target="#carouselSite" data-target-to="0" class="active"></li>
+            <li data-target="#carouselSite" data-target-to="1"></li>
+            <li data-target="#carouselSite" data-target-to="2"></li>
+            
+        </ol>
+        
+        <!-- Imagens -->
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+                <img src="img/slide-01.jpg" class="img-fluid d-block">
+                
+                <!-- texto -->
+                <div class="carousel-caption d-none d-md-block text-dark">
+                    
+                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <p class="lead">Suspendisse molestie dui magna, in malesuada nunc fermentum nec.</p>
+                    
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+
+                <img src="img/slide-02.jpg" class="img-fluid d-block">
+
+                <!-- texto -->
+                <div class="carousel-caption d-none d-md-block text-dark">
+                    
+                    <h1>Donec sodales dapibus interdum</h1>
+                    <p class="lead">Suspendisse molestie dui magna, in malesuada nunc fermentum nec.</p>
+                    
+                </div>
+                
+            </div>
+
+            <div class="carousel-item">
+
+                <img src="img/slide-03.jpg" class="img-fluid d-block ">
+                
+                <!-- texto -->
+                <div class="carousel-caption d-none d-md-block text-dark">
+                    
+                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <p class="lead">Suspendisse molestie dui magna, in malesuada nunc fermentum nec.</p>
+                    
+                </div>
+                
+            </div>
+
+        </div>
+        
+        <!-- Botão anterior -->
+        <a href="#carouselSite" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        
+        <!-- Botão avançar -->
+        <a href="#carouselSite" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Avançar</span>
+        </a>
+    
+    </div>
+    
+    <div class="container">
+        
+        <div class="row">
+            
+            <div class="text-center my-5 col-12">
+
+                <h1 class="display-3"><i class="fas fa-cogs text-primary mr-3"></i>Lorem ipsum</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, nullam fringilla ultricies sagittis.</p>
+            
+            </div>
+        
+        </div>
+        
+        <div class="row">
+            
+            <div class="col-sm-6 col-md-4 mb-3">
+                
+                <nav id="navbarVertical" class="navbar navbar-light bg-light">
+                    
+                    <nav class="nav nav-pills flex-column">
+                        
+                        <a href="#item1" class="nav-link my-2">Lorem ipsum</a>
+                        
+                        <nav class="nav nav-pills flex-column ml-3">
+                            
+                            <a href="#item1-1" class="nav-link">Maecenas</a>
+                            
+                            <a href="#item1-2" class="nav-link">Nullam id</a>
+                            
+                        </nav>
+                        
+                        <a href="#item2" class="nav-link my-2">Vivamus dapibus</a>
+                        
+                        <a href="#item3" class="nav-link my-2">Fusce ornare</a>
+                        
+                        
+                        <nav class="nav nav-pills flex-column ml-3">
+                            
+                            <a href="#item3-1" class="nav-link">Duis dui</a>
+                            
+                            <a href="#item3-2" class="nav-link">Phasellus</a>
+                            
+                        </nav>
+                        
+                    </nav>
+                    
+                </nav>
+                
+            </div>
+            
+            <div class="col-sm-6 col-md-8">
+                
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+                    
+                    <h4 id="item1">Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla ultricies sagittis. Fusce consectetur placerat neque in molestie. Maecenas ac nisl hendrerit, pellentesque ante nec, aliquam mauris. Nulla consectetur mattis mi non aliquam. Vivamus ut lectus ex. Vestibulum lectus sem, suscipit ut diam vel, accumsan euismod sem.</p>
+                    
+                    <h5 id="item1-1">Maecenas</h5>
+                    <p>Morbi sollicitudin, leo rhoncus tempus mollis, magna magna auctor metus, sed mattis justo urna ultrices arcu. Pellentesque sed risus hendrerit, iaculis lectus et, sollicitudin nisi. Quisque faucibus facilisis malesuada. Donec maximus lorem vel eleifend bibendum. Sed efficitur, lectus a gravida ullamcorper, sem nibh placerat leo, sed facilisis erat mi vel mauris.</p>
+                    
+                    <h5 id="item1-2">Nullam id</h5>
+                    <p>Phasellus ullamcorper congue dui sed scelerisque. Praesent erat magna, tristique ac mauris ut, iaculis tincidunt velit. Aenean euismod facilisis ipsum, et auctor dui interdum sed. Suspendisse vitae arcu sit amet nulla hendrerit porta. Sed eget sodales eros. Donec auctor, nisl vel tincidunt auctor, est eros egestas odio, eget ultricies velit lorem nec eros. Praesent sed mauris sed urna scelerisque pulvinar. Vivamus non libero maximus, euismod tortor quis, tincidunt libero. Aliquam odio lectus, porttitor sed arcu a, porta faucibus odio. Nunc id lacinia ligula, sed venenatis mi.</p>
+                    
+                    <h4 id="item2">Vivamus dapibus</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla ultricies sagittis. Fusce consectetur placerat neque in molestie. Maecenas ac nisl hendrerit, pellentesque ante nec, aliquam mauris. Nulla consectetur mattis mi non aliquam. Vivamus ut lectus ex. Vestibulum lectus sem, suscipit ut diam vel, accumsan euismod sem.</p>
+                    
+                    <h4 id="item3">Fusce ornare</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla ultricies sagittis. Fusce consectetur placerat neque in molestie. Maecenas ac nisl hendrerit, pellentesque ante nec, aliquam mauris. Nulla consectetur mattis mi non aliquam. Vivamus ut lectus ex. Vestibulum lectus sem, suscipit ut diam vel, accumsan euismod sem.</p>
+                    
+                    <h5 id="item3-1">Duis dui</h5>
+                    <p>Morbi sollicitudin, leo rhoncus tempus mollis, magna magna auctor metus, sed mattis justo urna ultrices arcu. Pellentesque sed risus hendrerit, iaculis lectus et, sollicitudin nisi. Quisque faucibus facilisis malesuada. Donec maximus lorem vel eleifend bibendum. Sed efficitur, lectus a gravida ullamcorper, sem nibh placerat leo, sed facilisis erat mi vel mauris.</p>
+                    
+                    <h5 id="item3-2">Phasellus</h5>
+                    <p>Phasellus ullamcorper congue dui sed scelerisque. Praesent erat magna, tristique ac mauris ut, iaculis tincidunt velit. Aenean euismod facilisis ipsum, et auctor dui interdum sed. Suspendisse vitae arcu sit amet nulla hendrerit porta. Sed eget sodales eros. Donec auctor, nisl vel tincidunt auctor, est eros egestas odio, eget ultricies velit lorem nec eros. Praesent sed mauris sed urna scelerisque pulvinar. Vivamus non libero maximus, euismod tortor quis, tincidunt libero. Aliquam odio lectus, porttitor sed arcu a, porta faucibus odio. Nunc id lacinia ligula, sed venenatis mi.</p>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <div class="row mt-3 justify-content-sm-center">
+            
+            <div class="col-sm-6 col-md-4 mb-5">
+                
+                <div class="card">
+                           
+                    <img class="card-img-top" src="img/item-01.jpg">
+                    
+                    <div class="card-body">
+                       
+                        <h4 class="card-title"> Mauris commodo</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Vestibulum sit amet mi.</h6>
+                        <p>Maecenas aliquet augue id sagittis efficitur.</p>
+                        
+                    </div>
+                    
+                    <ul class="list-group list-group-flush">
+                       
+                        <li class="list-group-item">Orci varius natoque</li>
+                        <li class="list-group-item">Proin cursus blandit</li>
+                        <li class="list-group-item">Cras sed orci</li>
+                        
+                    </ul>
+                    
+                    <div class="card-body">
+                        <a href="#" class="card-link">Efficitur</a>
+                        <a href="#" class="card-link">Donec</a>
+                    </div>
+                    
+                    <div class="card-footer text-muted">
+                        Maecenas ac
+                    </div>
+                    
+                </div>
+                
+            </div><!-- fim -->
+            
+            <div class="col-sm-6 col-md-4 mb-5">
+                
+                <div class="card">
+                   
+                    <img class="card-img-top" src="img/item-02.jpg">
+                   
+                    <div class="card-body">
+                           
+                        <h4 class="card-title">Duis dignissim</h4> 
+                        <h6 class="card-subtitle mb-2 text-muted">Vestibulum nec mollis</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>      
+                                   
+                    </div>
+                    
+                    <ul class="list-group list-group-flush">
+                        
+                        <li class="list-group-item">Orci varius natoque</li>
+                        <li class="list-group-item">Proin cursus blandit</li>
+                        <li class="list-group-item">Cras sed orci</li>
+                        
+                    </ul>
+                    
+                    <div class="card-body">
+                        
+                        <a href="#" class="card-link">Donec</a>
+                        <a href="#" class="card-link">Curabitur risus</a>
+                        
+                    </div>
+                    
+                    <div class="card-footer text-muted">
+                        Maecenas ac
+                    </div>
+                    
+                </div>
+                
+            </div><!-- fim -->
+            
+            <div class="col-sm-6 col-md-4 mb-5">
+                
+                <div class="card">
+                   
+                    <img class="card-img-top" src="img/item-03.jpg">
+                   
+                    <div class="card-body">
+                           
+                        <h4 class="card-title">Duis dignissim</h4> 
+                        <h6 class="card-subtitle mb-2 text-muted">Vestibulum nec mollis</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>      
+                                   
+                    </div>
+                    
+                    <ul class="list-group list-group-flush">
+                        
+                        <li class="list-group-item">Orci varius natoque</li>
+                        <li class="list-group-item">Proin cursus blandit</li>
+                        <li class="list-group-item">Cras sed orci</li>
+                        
+                    </ul>
+                    
+                    <div class="card-body">
+                        
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#modalSite">Donec</a>
+                        <a href="#" class="card-link">Curabitur risus</a>
+                        
+                    </div>
+                    
+                    <div class="card-footer text-muted">
+                        Maecenas ac
+                    </div>
+                    
+                </div>
+                
+            </div><!-- fim -->
+            
+        </div>
+        
+    </div><!-- fim container -->
+
+    <div class="jumbotron jumbotron-fluid">
+
+        <div class="container">
+            
+            <div class="row">
+
+                <div class="col-12 text-center">
+
+                    <h1 class="display-4"><i class="fas fa-video text-primary mr-3"></i>Vestibulum nec mollis</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <hr>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-12">
+
+                    <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01">Consectetur</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Adipiscing</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#nav-item-03">Vestibulum</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="tab-content" id="nav-pills-content">    
+                    <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                        
+                        <div class="row">
+
+                            <div class="col-sm-6">
+
+                                <div class="embed-responsive embed-responsive-16by9">
+
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GOsjcJNsGxc"></iframe>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-6">
+                                <p>Morbi sollicitudin, leo rhoncus tempus mollis, magna magna auctor metus, sed mattis justo urna ultrices arcu. Pellentesque sed risus hendrerit, iaculis lectus et, sollicitudin nisi. Quisque faucibus facilisis malesuada. Donec maximus lorem vel eleifend bibendum. Sed efficitur, lectus a gravida ullamcorper, sem nibh placerat leo, sed facilisis erat mi vel mauris.  
+                                </p>
+                            </div>
+
+                        </div><!-- fim row -->
+
+                    </div>
+
+                    <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+
+                        <div class="row">
+
+                            <div class="col-sm-6">
+        
+                                <div class="embed-responsive embed-responsive-16by9">
+        
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lwk5OUII9Vc"></iframe>
+        
+                                </div>
+        
+                            </div>
+        
+                            <div class="col-sm-6">
+                                <p>Morbi sollicitudin, leo rhoncus tempus mollis, magna magna auctor metus, sed mattis justo urna ultrices arcu. Pellentesque sed risus hendrerit, iaculis lectus et, sollicitudin nisi. Quisque faucibus facilisis malesuada. Donec maximus lorem vel eleifend bibendum. Sed efficitur, lectus a gravida ullamcorper, sem nibh placerat leo, sed facilisis erat mi vel mauris.  
+                                </p>
+                            </div>
+        
+                        </div><!-- fim row -->
+
+                    </div>
+
+                    <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
+                        
+                        <div class="row">
+
+                            <div class="col-sm-6">
+                
+                                <div class="embed-responsive embed-responsive-16by9">
+                
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fKopy74weus"></iframe>
+                
+                                </div>
+                
+                            </div>
+                
+                            <div class="col-sm-6">
+                                <p>Morbi sollicitudin, leo rhoncus tempus mollis, magna magna auctor metus, sed mattis justo urna ultrices arcu. Pellentesque sed risus hendrerit, iaculis lectus et, sollicitudin nisi. Quisque faucibus facilisis malesuada. Donec maximus lorem vel eleifend bibendum. Sed efficitur, lectus a gravida ullamcorper, sem nibh placerat leo, sed facilisis erat mi vel mauris.  
+                                </p>
+                            </div>
+                
+                        </div><!-- fim row -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div><!-- fim container -->
+
+    </div><!-- fim jumbotron -->
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-12 text-center my-5">
+
+                <h1 class="display-4"><i class="fas fa-paper-plane text-primary mr-3"></i>Maecenas id gravida</h1>
+
+            </div>
+
+        </div>
+        
+        <div class="row justify-content-center">
+
+            <div class="col-sm-12 col-md-10 col-lg-8 mb-5">
+
+                <form>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-sm-6">
+
+                            <label for="inputNome">Seu nome</label>
+                            <input type="text" id="inputNome" class="form-control" placeholder="Nome">
+
+                        </div>
+
+                        <div class="form-group col-sm-6">
+
+                            <label for="inputSobrenome">Seu sobrenome</label>
+                            <input type="text" id="inputSobrenome" class="form-control" placeholder="Sobrenome">
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-12">
+
+                            <label for="inputEndereco">Seu endereço</label>
+                            <input type="text" id="inputEndereco" class="form-control" placeholder="Endereço completo">
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-sm-6">
+
+                            <label for="inputCidade">Sua cidade</label>
+                            <input type="text" id="inputCidade" class="form-control" placeholder="Cidade">
+
+                        </div>
+
+                        <div class="form-group col-sm-4">
+
+                            <label for="inputEstado">Seu estado</label>
+                            <select id="inputEstado" class="form-control">
+                                <option selected>Escolha...</option>
+                                <option value="0">...</option>
+                                <option value="1">...</option>
+                                <option value="2">...</option>
+                            </select>
+
+                        </div>
+
+                        <div class="form-group col-sm-2">
+
+                            <label for="inputCep">Seu CEP</label>
+                            <input type="text" id="inputCep" class="form-control">
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-sm-12">
+
+                            <div class="form-check">
+
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox"> Desejo receber novidades por e-mail
+                                </label>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-sm-12">
+
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            
+                            <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Consectetur adipiscing elit." data-content="Consectetur adipiscing elit. Fusce a justo sapien. Donec interdum nunc mattis">Ajuda</a>
+
+                        </div>
+
+                    </div>
+
+
+                </form>
+
+            </div>
+
+        </div><!-- fim row -->
+
+        <div class="row">
+
+            <div class="col-12 mb-3"><hr></div>
+
+            <div class="col-sm-4">
+
+                <h3>Curso</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum diam nec iaculis venenatis. Aliquam ultricies ligula massa, sit amet dictum dui sodales nec.</p>
+                <p>Nam dignissim libero ornare lacus luctus, vitae tempus lacus volutpat. Curabitur ac ipsum tortor.</p>
+
+            </div>
+
+            <div class="col-sm-4">
+
+                <h3>Menu</h3>
+                <div class="list-group text-center">
+
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Perfil</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Serviços</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Depoimentos</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Contatos</a>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-4">
+
+                <h3>Social</h3>
+                <div class="btn-group-vertical btn-group-lg btn-block" role="group">
+                    <a href="#" class="btn btn-outline-primary"><i class="fab fa-facebook-square mr-2"></i>Facebook</a>
+                    <a href="#" class="btn btn-outline-info"><i class="fab fa-twitter-square mr-2"></i>Twitter</a>
+                    <a href="#" class="btn btn-outline-warning"><i class="fab fa-instagram mr-2"></i>Instagran</a>
+                </div>
+
+            </div>
+
+            <div class="col-12 mt-5">
+
+                <blockquote class="blockquote text-center">
+
+                    <p class="mb-0">O sucesso não é garantido, mas o fracasso é certo se você não estiver emocionalmente envolvido em seu trabalho.</p>
+                    <footer class=" blockquote-footer">Biz Stone <cite title="Titulo">Fundador do Twitter</cite></footer>
+
+                </blockquote>
+
+            </div>
+
+        </div><!-- fim row -->
+
+
+    </div><!-- fim container -->
+
+    <!-- Modal -->
+    <div id="modalSite" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document"><!-- modal-lg e modal-sm -->
+            <div class="modal-content">
+                
+                <div class="modal-header">
+
+                    <h5 class="modal-title">Phasellus</h5>
+                    <button class="close" type="button" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a justo sapien. Donec interdum nunc mattis, placerat nisi id, auctor nisi. Fusce ante velit, elementum sed sem non, finibus feugiat tortor. Aliquam erat volutpat. Nam luctus, turpis ac ullamcorper efficitur, tellus tortor feugiat nulla, sit amet pulvinar felis enim in erat. Donec vehicula lacinia nisl, quis elementum lorem pellentesque sed. Donec pellentesque iaculis tempor.</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">lacinia</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!-- Popover -->
+    <script>
+        
+        $(function(){
+
+            $('[data-toggle="popover"]').popover();
+        });
+
+    </script>
+    
+  </body>
+</html>
